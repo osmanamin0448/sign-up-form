@@ -41,6 +41,8 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+
+/* ===== Left Side ===== */
 @font-face {
   font-family: "Norse";
   src: 
@@ -93,6 +95,55 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/* ===== Right Side ===== */
+.info-container{
+  width: 70%;
+}
+.text-info{
+  padding: 10% 5% 0% 5%;
+}
+.text-info p{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
+.login-container{
+  margin-top: 20px;
+  background-color: whitesmoke;
+  padding: 5%;
+}
+.login-container h1{
+  margin-bottom: 10px;
+}
+form,
+label{
+  display: flex;
+  text-transform: capitalize;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 10px;
+}
+input{
+  width: 300px;
+  border: #E5E7EB solid 1px;
+}
 
+input:user-invalid{
+  border: red 1px solid;
+}
+/* =====e Button section ===== */
+.button-container{
+  padding: 5%
+}
+button{
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
+strong{
+  color: #596D48;
+}
