@@ -115,17 +115,26 @@ h1, h2, h3, h4, h5, h6 {
 .login-container h1{
   margin-bottom: 10px;
 }
-form,
-label{
+
+form{
   display: flex;
-  text-transform: capitalize;
-  flex-wrap: wrap;
-  flex: 1;
   gap: 10px;
+  padding: 10px;
+}
+label{
+  text-transform: capitalize;
+}
+
+.form-group{
+  width: 100%;
+}
+.left-side,
+.right-side{
+  width: 100%;
 }
 input{
-  width: 300px;
-  border: #E5E7EB solid 1px;
+  width: 100%;
+  border:#E5E7EB solid 1px;
 }
 
 input:user-invalid{
